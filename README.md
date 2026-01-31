@@ -1,5 +1,8 @@
 # Intelligent Text Engine
 
+![Interface Preview](assets/interface_preview.png)
+
+
 A sophisticated, learning-based conversational agent built from scratch using advanced data structures and graph algorithms. This project demonstrates how to implement an "intelligent" text processor without relying on large pre-trained language models (LLMs), instead using fundamental computer science concepts.
 
 ![Project Status](https://img.shields.io/badge/status-active-success)
