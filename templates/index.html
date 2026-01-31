@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Text Engine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                style="margin-right: 15px;">
+                <path
+                    d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4Z"
+                    fill="url(#paint0_linear)" />
+                <path
+                    d="M12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8Z"
+                    fill="white" opacity="0.5" />
+                <defs>
+                    <linearGradient id="paint0_linear" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#60A5FA" />
+                        <stop offset="1" stop-color="#C084FC" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <h1>Intelligent Engine</h1>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <!-- Messages will appear here -->
+            <div class="message bot-message">
+                <div
+                    style="font-weight: 600; color: #a78bfa; margin-bottom: 5px; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px;">
+                    System Agent</div>
+                Hello! I am your Intelligent Text Engine. Type a sentence, and I will analyze it using my Red-Black Tree
+                and Graph algorithms.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type something to analyze..." autocomplete="off">
+            <button id="send-btn">Analyze</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
