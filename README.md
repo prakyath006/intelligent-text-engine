@@ -8,6 +8,9 @@ A sophisticated, learning-based conversational agent built from scratch using ad
 ![Project Status](https://img.shields.io/badge/status-active-success)
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://intelligent-text-engine.vercel.app/)
+
+### 🔴 [Chat with the Agent Live](https://intelligent-text-engine.vercel.app/)
 
 ## 🧠 Core Intelligence
 
